@@ -14,7 +14,7 @@ import progressbar
 import shutil
 import tempfile
 import tensorflow as tf
-#import traceback
+import traceback
 
 from ds_ctcdecoder import ctc_beam_search_decoder, Scorer
 from six.moves import zip, range
